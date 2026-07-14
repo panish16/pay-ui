@@ -16,7 +16,7 @@ defaults:
 
 jobs:
   pay-ui-ci:
-    uses: bcgov/bcregistry-sre/.github/workflows/frontend-ci.yaml@main
+    uses: panish16/bcregistry-sre/.github/workflows/frontend-ci.yaml@feat/upgrade-pnpm-v11
     with:
       node_version: 24
       pnpm_version: latest-11
